@@ -25,6 +25,7 @@ namespace TupleExtensions
                 foreach (var item in items)
                 {
                     yield return (item, index);
+                    ++index;
                 }
             }
         }
